@@ -6,11 +6,11 @@ body {
 display : flex;
 width : 100vw;
 height : 100vh;
-align-items : center;
 }
 .main-container {
 width : 100%;
 max-width : 400px;
+align-items : center;
 }
 .main-card {
 background: white;
@@ -18,5 +18,8 @@ border-radius: 12px;
 padding: 32px;
 border: 1px solid #e2e8f0;
 box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.main-card h1 + p{
+text-align : center;
 }
   
