@@ -3,12 +3,14 @@ margin : 0;
 padding : 0;
 }
 body {
-display : flex;
+dosplay : flex;
 width : 100vw;
 height : 100vh;
 }
 .main-container {
-width : 100%;
+display : flex;
+height : 100%;
+justify-content : center;
 align-items : center;
 }
 .main-card {
@@ -17,9 +19,6 @@ border-radius: 12px;
 padding: 32px;
 border: 1px solid #e2e8f0;
 box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-.main-card h1{
-text-align : center;
 }
 .main-card p{
 text-align : center;
