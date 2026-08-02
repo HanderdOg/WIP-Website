@@ -22,19 +22,14 @@ border: 1px solid #e2e8f0;
 box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 .main-card h1{
-margin-left : 110px;
+text-align: center;
 }
 .another {
 position: relative;
-margin-left : 85px;
-visibility: hidden;
+text-align : center;
 }
 .disclaimer {
 position: relative;
+text-align : center;
 font-weight : bold;
-}
-.another-another {
-position: absolute; 
-top : 285px;
-margin-left : 90px;
 }
